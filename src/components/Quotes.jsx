@@ -16,7 +16,7 @@ const Quotes = () => {
   return (
     <div className='z-10'>
         {
-        data ?   <div className='text-center px-2 w-full md:w-[1200px] mx-auto'>
+        data ?   <div className='text-center px-2 w-full lg:w-[1200px] mx-auto'>
                       <p className='text-[15px] md:text-xl my-2'>{data.quote}</p>
                       <p className='italic text-sm md:text-xl'>-{data.author}
                       </p>
