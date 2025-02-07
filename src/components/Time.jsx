@@ -24,7 +24,7 @@ const Time = () => {
   }, []);
 
   return (
-    <div>
+    <div className="w-full">
       <p className="text-center  text-5xl md:text-8xl">{currentTime}</p>
       <p className="text-center text-3xl md:text-5xl my-5">Hey, hope you're well!</p>
     </div>
