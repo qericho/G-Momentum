@@ -25,7 +25,7 @@ const Time = () => {
 
   return (
     <div>
-      <p className="w-full text-center  text-5xl md:text-8xl">{currentTime}</p>
+      <p className="w-full text-center  text-5xl md:text-6xl xl:text-8xl">{currentTime}</p>
       <p className="w-full text-center text-3xl md:text-5xl my-5">Hey, hope you're well!</p>
     </div>
   );
