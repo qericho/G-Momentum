@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div className="w-full h-screen p-2 text-white">
       <div className="h-screen w-full bg-black/70 absolute left-0 top-0 z-[-1]"></div>
-      <div className="flex justify-between">
+      <div className="w-full flex justify-between">
         <Weather/>
         <DateToday/>
       </div>
