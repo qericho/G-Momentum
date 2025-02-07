@@ -12,18 +12,19 @@ const Quotes = () => {
       console.log(err)
     })
   },[])
-  console.log(data)
+
   return (
-    <div>
+    <div className='z-10'>
         {
-        data ?   <div className='text-center px-2'>
+        data ?   <div className='text-center px-2 w-full md:w-[1200px] mx-auto'>
                       <p className='text-[15px] md:text-xl my-2'>{data.quote}</p>
-                      <p className='italic text-sm md:text-xl'>-{data.author}</p>
+                      <p className='italic text-sm md:text-xl'>-{data.author}
+                      </p>
                  </div>
               :
               
               <div>
-                    <p className='text-sm'>loading please wait!</p>
+                    <p className='text-sm text-center'>loading please wait!</p>
               </div>
 
         }
