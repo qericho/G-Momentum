@@ -7,5 +7,5 @@
 }
 body{
     @apply bg-[url('https://random-image-pepebigotes.vercel.app/api/random-image')];
-    @apply bg-center bg-cover
+    @apply bg-center bg-cover overflow-x-hidden;
 }
